@@ -18,12 +18,14 @@ class RecursionMathTest {
     @Test
     public void testDivision() {
         // Add JUnit tests to test your method
-        fail("Write some tests!");
+      
+        assertEquals(5, RecursionMath.recursiveDivision(10, 2));
     }
 
     @Test 
     public void testPower() {
         // Add JUnit tests to test your method
-        fail("Write some tests!");
+       
+        assertEquals(27, RecursionMath.recursivePower(3, 3));
     }
 }
