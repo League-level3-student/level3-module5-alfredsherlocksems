@@ -32,7 +32,7 @@ public class RecursionMath {
          	return 1;
          }
          else {
-         	return 1 * recursivePower(number * number, power - 1);
+         	return number * recursivePower(number, power - 1);
          }
     }
 }
